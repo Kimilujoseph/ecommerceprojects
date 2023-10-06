@@ -27,5 +27,5 @@ function errorHandling(err,req,res,next){
 
 }
 function errorhandler(req,res){
-    res.status(404).json({error:'404 Error file not found'})
+    res.status(404).json({error:'404 Error file cannot see file'})
 }
